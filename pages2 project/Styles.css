@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+   background-image: url('Abstract network business technology title background After Effects Templates.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 350px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 8px 0 4px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.checkboxes {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+}
+.link-button  {
+    display: inline-block;
+    background-color: #28a745;  /* Green background */
+    color: white;
+    padding: 8px 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    text-decoration: none;      /* Remove underline */
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.link-button:hover {
+    background-color: #109d2f;  /* Darker green on hover */
+}

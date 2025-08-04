@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Sample Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <label for="country">Country / Region</label>
+            <select id="country" required>
+                <option value="">Select...</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+
+            <label for="currency">Currency</label>
+            <select id="currency" required>
+                <option value="usd">USD</option>
+                <option value="eur">EUR</option>
+                <option value="rwf">RWF</option>
+            </select>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter password" required>
+
+            <div class="checkboxes">
+                <label><input type="checkbox" id="age" required> I am 18+ and accept terms</label><br>
+                <label><input type="checkbox" id="notUS"> I am not a US citizen</label>
+            </div>
+
+            <button type="submit" class="btn">Register</button>
+        </form>
+         <p>Already have an account? <a href="login.html" class="link-button">log in</a></p>
+         <a href="index.html">Home</a>
+
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>
